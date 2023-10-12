@@ -9,11 +9,11 @@ public class Calculator {
         return firstInput - secondInput;
     }
 
-    public static Integer multiply(final int firstInput, final int secondInput) {
+    public static Double multiply(final double firstInput, final double secondInput) {
         return firstInput * secondInput;
     }
 
-    public static Integer divide(final int firstInput, final int secondInput) {
+    public static Double divide(final double firstInput, final double secondInput) {
         return firstInput / secondInput;
     }
 }
